@@ -1,8 +1,8 @@
 // complete the given function
 
 function palindrome(str){
-	const strr = str.split('').reverse().join('');
-	alert(str.toLowerCase());
+	const strr = str.split('').reverse().join('').toLowerCase();
+	// alert(strr);
 	if(str === strr){ 
 		return true;
 	}
