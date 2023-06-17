@@ -4,9 +4,9 @@ function palindrome(str){
 	const strr = str.split('').reverse().join('');
 	// alert(str);
 	if(str === strr){ 
-		return "true";
+		return true;
 	}
-	return "false";
+	return false;
 }
 
 let res = palindrome("racecar")
