@@ -10,5 +10,4 @@ function palindrome(str){
 	}
 }
 
-palindrome("racecar");
 module.exports = palindrome
