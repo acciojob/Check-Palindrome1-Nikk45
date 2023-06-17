@@ -1,7 +1,7 @@
 // complete the given function
 
 function palindrome(str){
-	let strr = str.split('').reverse().join('');
+	const reversedStr = str.split('').reverse().join('');
 	alert(str);
 	if(str === strr){ 
 		return "true";
