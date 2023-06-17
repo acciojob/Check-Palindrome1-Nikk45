@@ -2,7 +2,7 @@
 
 function palindrome(str){
 	const reversedStr = str.split('').reverse().join('');
-	alert(str);
+	// alert(str);
 	if(str === strr){ 
 		return "true";
 	}else{
@@ -10,5 +10,5 @@ function palindrome(str){
 	}
 }
 
-let display = palindrome("racecar");
+palindrome("racecar");
 module.exports = palindrome
