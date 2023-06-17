@@ -5,9 +5,8 @@ function palindrome(str){
 	// alert(str);
 	if(str === strr){ 
 		return "true";
-	}else{
-		return "false";
 	}
+	return "false";
 }
 
 module.exports = palindrome
